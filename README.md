@@ -19,7 +19,9 @@ This project is useful for:
 - Portfolio building for data science roles
 
 
+
 ## 📂 Project Structure
+```
 Zomato-Analytics/
 ├─ README.md
 ├─ Zomato_Analytics_Dashboard_Final.xlsx
@@ -32,4 +34,4 @@ Zomato-Analytics/
 ├─ notebooks/
 │ └─ Zomato_EDA_and_Dashboard.ipynb
 └─ src/
-└─ data_processing.py
+└─ data_processing.py```
