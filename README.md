@@ -1,37 +1,58 @@
-# 🍽️ Zomato Analytics Dashboard
+🍽️ Zomato Analytics Dashboard
 
-This project provides a complete analytical overview of Zomato restaurant data using the provided Excel dataset. 
-It includes data cleaning, transformation, exploratory analysis, and visual dashboard creation. The project helps 
-identify key patterns such as restaurant distribution across cities, customer ratings, most popular cuisines, 
-price range insights, and overall performance metrics. 
+This project provides a complete analytical overview of Zomato restaurant data using the provided Excel dataset.
+It includes data cleaning, transformation, exploratory data analysis (EDA), SQL-based insights, and dashboard creation across multiple BI tools such as Excel, Tableau, and Power BI
 
-The repository contains:
-- The original Excel dataset
-- A cleaned CSV version stored in the data/raw folder
-- Dashboard visualizations inside the images folder
-- A Jupyter Notebook demonstrating step-by-step analysis
-- Code scripts for data processing
-
-This project is useful for:
-- Data analysis learners
-- Dashboard/report creators
-- People studying restaurant and food delivery trends
-- Portfolio building for data science roles
+🔍Key Insights Explored
+  - Restaurant distribution across cities
+  - Customer ratings patterns
+  - Most popular cuisines
+  - Price range & cost analysis
+  - Restaurant performance metrics
+ 
+🎯 Who Is This Project For?
+ - Data analysis learners
+ - Dashboard/report creators
+ - Researchers studying restaurant or food delivery trends
+ - Professionals building analytics or data science portfolios
 
 
+📁 Repository Contents
+- The repository includes:
+  - Original dataset (raw Excel format)
+  - Cleaned and processed CSV file in the data/processed folder
+  - Dashboard outputs (Excel, Tableau, Power BI) in the images/ folder
+  - Optional SQL script for advanced querying (if added in /sql folder)
 
 ## 📂 Project Structure
 ```
 Zomato-Analytics/
-├─ README.md
-├─ Zomato_Analytics_Dashboard_Final.xlsx
-├─ data/
-│ ├─ raw/
-│ │ └─ raw_data.csv
-│ └─ processed/
-├─ images/
-│ └─ dashboard.png
-├─ notebooks/
-│ └─ Zomato_EDA_and_Dashboard.ipynb
-└─ src/
-└─ data_processing.py```
+├── README.md
+│
+├── data/
+│   ├── raw/
+│   │   └── raw_data.csv
+│   └── processed/
+│       └── clean_data.csv
+│
+├── dashboards/
+│   ├── Excel/
+│   │   └── Zomato_Analytics_Dashboard_Final.xlsx
+│   │
+│   ├── Tableau/
+│   │   ├── tableau_dashboard.twbx        
+│   │   └── dashboard_tableau.png
+│   │
+│   └── PowerBI/
+│       ├── zomato_dashboard.pbix         
+│       └── dashboard_powerbi.png
+│
+├── images/
+│   ├── dashboard_excel.png
+│   ├── dashboard_tableau.png
+│   └── dashboard_powerbi.png
+│
+├── sql/
+│   └── zomato_queries.sql
+│
+└── src/
