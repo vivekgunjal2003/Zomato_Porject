@@ -27,32 +27,32 @@ It includes data cleaning, transformation, exploratory data analysis (EDA), SQL-
 ## 📂 Project Structure
 ```
 Zomato-Analytics/
-├── README.md
+│
+├── dashboards/
+│   ├── Excel_Dashboard/
+│   │   └── Zomato_Analytics_Dashboard_Final.xlsx
+│   │
+│   ├── PowerBI_Dashboard/
+│   │   └── powerbi_file.pbix            
+│   │
+│   └── Tableau_Dashboard/
+│       └── tableau_file.twbx          
 │
 ├── data/
 │   ├── raw/
-│   │   └── raw_data.csv
+│   │   ├── Copy of Zomata - Copy (2).xlsx
+│   │   └── Copy of Zomato Questionnaires (3).txt
+│   │
 │   └── processed/
+│       ├── Zomato_Analytics_Clean_Data.xlsx
 │       └── clean_data.csv
 │
-├── dashboards/
-│   ├── Excel/
-│   │   └── Zomato_Analytics_Dashboard_Final.xlsx
-│   │
-│   ├── Tableau/
-│   │   ├── tableau_dashboard.twbx        
-│   │   └── dashboard_tableau.png
-│   │
-│   └── PowerBI/
-│       ├── zomato_dashboard.pbix         
-│       └── dashboard_powerbi.png
-│
 ├── images/
-│   ├── dashboard_excel.png
-│   ├── dashboard_tableau.png
-│   └── dashboard_powerbi.png
+│   └── dashboard_excel.png
 │
 ├── sql/
 │   └── zomato_queries.sql
 │
-└── src/
+│
+└── README.md
+
